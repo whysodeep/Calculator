@@ -1,0 +1,25 @@
+Equations are in the form num1 operator num2 =
+Where num1 and num2 must be integers,
+operator is one of +, -, / or *
+Enter 0 = to quit.
+Enter your equation:
+Error: Equation incomplete. First number is missing.
+Enter your equation: d
+Error: First number is not an integer.
+Enter your equation: 1
+Error: Equation incomplete. Operator is missing.
+Enter your equation: 1 e
+Error: Invalid operator. Valid operators are +, -, /, and *
+Enter your equation: 1 +
+Error: Second number is missing.
+Enter your equation: 1 * 3
+Error: Equation incomplete. Equation must end with =
+Enter your equation: 1 - 2 =
+That answer is: -1
+Enter your equation: 0 / 6 =
+That answer is: 0
+Enter your equation: 6 / 0 =
+Error: Can not divide by zero! Result is invalid, returning zero.
+That answer is: 0
+Enter your equation: 0 =
+Program exiting.
